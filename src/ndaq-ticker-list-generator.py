@@ -18,13 +18,3 @@ class NDAQ_Ticker_List:
 
         return tickers
 
-
-a = NDAQ_Ticker_List()
-
-b = a.get_list(to_datetime("2025-11-01", format="%Y-%m-%d"))
-c = len(b)
-print(c)
-
-d = a.get_list(to_datetime("2000-01-01", format="%Y-%m-%d"))
-e = len(d)
-print(e)
